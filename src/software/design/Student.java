@@ -15,6 +15,17 @@ public class Student {
     private String paramanand;
     private int number;
     private int no;
+    private int ndj;
+
+    public int getNdj() {
+        return ndj;
+    }
+
+    public void setNdj(int ndj) {
+        this.ndj = ndj;
+    }
+    
+    
 
     public int getNo() {
         return no;
