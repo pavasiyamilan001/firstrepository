@@ -14,7 +14,17 @@ public class Student {
     private String name;
     private String paramanand;
     private int number;
+    private int no;
 
+    public int getNo() {
+        return no;
+    }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    
     public int getNumber() {
         return number;
     }
