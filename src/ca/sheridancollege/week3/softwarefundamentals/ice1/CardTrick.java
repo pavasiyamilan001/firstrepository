@@ -40,7 +40,7 @@ public class CardTrick {
         System.out.println("Enter any number of card between 1-13");
         value = input.nextInt();
         
-        
+        suit = input.nextInt();
         
         
         
