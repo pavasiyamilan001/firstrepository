@@ -16,21 +16,31 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
+        int value;
+        String suit;
         Card[] magicHand = new Card[7];
+        Card c = new Card();
         
-        Random randNumber = new Random();
+        c.getValue();
+        c.getSuit();
+        
+        //Random randNumber = new Random();
         
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
             
-            // c = randNumber.nextInt(13);
-            
-            
-            
+            value=(int)(Math.round(Math.random()*12);
+           
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
+        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter any number of card between 1-13");
+        value = input.nextInt();
+        
+        
         
         
         
