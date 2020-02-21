@@ -11,7 +11,7 @@ package Practice;
  */
 
 import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Practice {
 	int[][] board = new int[3][3];
